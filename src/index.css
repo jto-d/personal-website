@@ -8,6 +8,13 @@
   
   --primary-color: #DBDBDB;
   --secondary-color: #D1D1D1;
-  --highlight-color: #85C7F2;
+  --highlight-color: #57b6f5;
 
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
