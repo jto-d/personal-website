@@ -1,16 +1,15 @@
-import './App.scss'
-import { About, Footer, Header, Skills, Work } from './container'
 import { Navbar } from './components'
+import styled from 'styled-components'
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Header />
+      {/* <Header />
       <About />
       <Work />
       <Skills />
-      <Footer />
+      <Footer /> */}
 
 
     </div>
