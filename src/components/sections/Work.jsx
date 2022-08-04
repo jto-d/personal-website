@@ -1,6 +1,5 @@
 import React from 'react'
-
-import './Work.scss'
+import styled from 'styled-components'
 
 const Work = () => {
   return (

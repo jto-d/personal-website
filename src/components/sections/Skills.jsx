@@ -1,15 +1,10 @@
 import React from 'react'
-
-import './Skills.scss'
+import styled from 'styled-components'
 
 const Skills = () => {
-  return 
-  
-  (
+  return (
     <div>Skills</div>
   )
 }
-
-
 
 export default Skills

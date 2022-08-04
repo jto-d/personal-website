@@ -1,17 +1,16 @@
-import { Navbar } from './components'
+import { Navbar, Footer } from './components'
+import { Main, About, Work, Skills } from './components/sections'
 import styled from 'styled-components'
 
 function App() {
   return (
     <div>
       <Navbar />
-      {/* <Header />
+      <Main />
       <About />
       <Work />
       <Skills />
-      <Footer /> */}
-
-
+      <Footer />
     </div>
   );
 }

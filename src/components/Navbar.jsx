@@ -135,7 +135,6 @@ const StyledMenu = styled.div`
 
 `
 
-
 const Navbar = () => {
 
   const [toggle, setToggle] = useState(false);
