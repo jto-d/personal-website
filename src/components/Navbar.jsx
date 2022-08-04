@@ -143,7 +143,7 @@ const Navbar = () => {
     
     <StyledNav>
       <StyledLogo>
-        <span>Logo Needed</span>
+        <span>Logo</span>
       </StyledLogo>
       <StyledLinks>
         {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
