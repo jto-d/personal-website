@@ -149,7 +149,7 @@ const Navbar = () => {
       </StyledLogo>
       <StyledLinks>
         {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
-            <li className="app__flex p-text" key={`link-${item}`}>
+            <li key={`link-${item}`}>
               <a href={`#${item}`}>{item}</a>
             </li>
           ))}

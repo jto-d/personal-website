@@ -40,11 +40,9 @@ const StyledMainText = styled.div`
     line-height: 2rem;
   }
 `
-const StyledButton = styled.button`
-  margin-top: 30px;
+const StyledButton = styled.a`
   padding: 1rem 1.5rem;
   
-  color: var(--highlight-color);
   background-color: transparent;
   border: 1px solid var(--highlight-color);
   font-size: 1.25rem;
@@ -52,7 +50,15 @@ const StyledButton = styled.button`
   letter-spacing: .1em;
   cursor: pointer;
 
+  color: var(--highlight-color);
+  text-decoration: none;
 
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: var(--secondary-bg-color);
+    
+  }
 
 `
 
@@ -66,8 +72,8 @@ const Main = () => {
           applications using code: websites, neural networks, and everything
           in between.
         </p>
-        <StyledButton>
-          <span>Find out more about me.</span>
+        <StyledButton href='#about'>
+          Find out more about me.
         </StyledButton>
 
       </StyledMainText>  
