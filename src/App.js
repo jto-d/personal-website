@@ -1,5 +1,5 @@
 import { Navbar, Footer } from './components'
-import { Main, About, Work, Skills } from './components/sections'
+import { Main, About, Work, Skills, Contact } from './components/sections'
 import styled from 'styled-components'
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <About />
       <Work />
       <Skills />
+      <Contact />
       <Footer />
     </div>
   );

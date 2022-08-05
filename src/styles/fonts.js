@@ -1,5 +1,6 @@
 import { css } from 'styled-components'
 
+import LatoLight from '../fonts/Lato/Lato-Light.ttf'
 import LatoRegular from '../fonts/Lato/Lato-Regular.ttf'
 import LatoMedium from '../fonts/Lato/Lato-Medium.ttf'
 import LatoSemibold from '../fonts/Lato/Lato-Semibold.ttf'
@@ -9,6 +10,7 @@ import LatoMediumItalic from '../fonts/Lato/Lato-MediumItalic.ttf'
 import LatoSemiboldItalic from '../fonts/Lato/Lato-SemiboldItalic.ttf'
 
 const latoNormalWeights = {
+    300: LatoLight,
     400: LatoRegular,
     500: LatoMedium,
     600: LatoSemibold

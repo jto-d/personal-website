@@ -9,7 +9,8 @@ const StyledNav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem 1rem 2rem;
+  letter-spacing: .1em;
 
 `
 
@@ -21,7 +22,9 @@ const StyledLogo = styled.div`
       margin-left: 1rem;
       color: var(--highlight-color);
       font-weight: 600;
-      font-size: 3rem;
+      text-transform: uppercase;
+      font-size: 1rem;
+      letter-spacing: .2em;
   }
 `
 const StyledLinks = styled.ul`
@@ -38,7 +41,7 @@ const StyledLinks = styled.ul`
           text-decoration: none;
           flex-direction: column;
           text-transform: uppercase;
-          font-weight: 400;
+          font-weight: 500;
           transition: all 0.3s ease-in-out;
           &:hover {
               color: var(--highlight-color);
@@ -142,7 +145,7 @@ const Navbar = () => {
     
     <StyledNav>
       <StyledLogo>
-        <span>Logo</span>
+        <span>Jack O'Donnell</span>
       </StyledLogo>
       <StyledLinks>
         {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
