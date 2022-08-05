@@ -40,25 +40,31 @@ const StyledMainText = styled.div`
     line-height: 2rem;
   }
 `
-const StyledButton = styled.a`
-  padding: 1rem 1.5rem;
+const StyledButton = styled.div`
   
-  background-color: transparent;
-  border: 1px solid var(--highlight-color);
-  font-size: 1.25rem;
-  font-weight: 300;
-  letter-spacing: .1em;
-  cursor: pointer;
+  margin-top: 50px;
 
-  color: var(--highlight-color);
-  text-decoration: none;
+  a {
+    padding: 1rem 1.5rem;
+  
+    background-color: transparent;
+    border: 1px solid var(--highlight-color);
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: .1em;
+    cursor: pointer;
 
-  transition: all 0.3s ease-in-out;
+    color: var(--highlight-color);
+    text-decoration: none;
 
-  &:hover {
-    background-color: var(--secondary-bg-color);
-    
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: var(--secondary-bg-color);
+      
+    }
   }
+  
 
 `
 
@@ -72,8 +78,8 @@ const Main = () => {
           applications using code: websites, neural networks, and everything
           in between.
         </p>
-        <StyledButton href='#about'>
-          Find out more about me.
+        <StyledButton>
+          <a href="#about">Find out more about me.</a>
         </StyledButton>
 
       </StyledMainText>  
