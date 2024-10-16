@@ -7,6 +7,10 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         scroll-behavior: smooth;
         overflow-x: hidden;
+
+        h1, h2, h3, h4, p, a, li, ul {
+            overflow: hidden;
+        }
     }
 `
 
